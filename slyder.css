@@ -1,0 +1,25 @@
+.slyder{
+	border: 2px solid black;
+	width: 600px;
+	height: 400px;
+	margin: 50px auto;
+	position: relative;
+}
+.slyde{
+	position: relative;
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.slyde img{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	opacity: 1;
+	transition: all ease 1s;
+}
+
+.slyde .oppacity0{
+	opacity: 0;
+}

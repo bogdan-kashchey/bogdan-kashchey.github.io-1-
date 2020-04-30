@@ -1,0 +1,909 @@
+@media(min-width:1200px){
+body{
+	background: url(/images/xv.png);
+}
+
+#main-menu{
+	
+	width: 100%;
+	height: 40px;
+	text-decoration: none;
+	background-color: black;
+	
+	font-weight: bolder;
+	text-align: center;
+	font-family: NonSc;
+	font-size: large;
+	margin: 0;
+	padding: 0;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#nav{
+color: yellow;
+font-size: 1.5em; 
+}
+
+.main-menu-after{
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-size: large;
+}
+.main-menu-after:hover{
+
+	color: white;
+	text-decoration: none;
+	display: block;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+
+	border-bottom-color: white;
+	font-family: NonSc;
+	transform: scale(1.2);
+	
+
+}
+
+@font-face{
+	font-family: NonSc;
+	src: url(/shrifts/ComicNeue-Bold.ttf);
+}
+#preview{
+	text-align: center;
+	position: relative;
+}
+
+#table-of-teachers{
+	text-align: center;
+	font-family:Comic Sans MS,sans-serif;
+}
+#private-photo{
+
+	float: right;
+	width: 300px;
+	
+}
+#teachers{
+	text-align: center;
+	font-weight: bolder;
+		background-color: #BBFFE1; 
+		border: 3px solid black;
+		box-shadow: 0 0 10px rgba(0,1,0,0.7);
+}
+
+#main-mail{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+#footer{
+	position: fixed; 
+    left: 0;
+    bottom: 0; 
+   padding: 5px;
+    color: black; 
+	width: 100%;
+	font-family: NonSc;
+	font-weight: bold;
+	background: url(/images/ricepaper_v3.png);
+}
+
+
+#about-me-text{
+	text-align: center;
+	font-weight: bold;
+	font-family:Comic Sans MS,sans-serif;
+
+}
+#disreption-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+	align-content: center;
+}
+#media{
+width: 33%;
+height: 300px;
+margin: 5px;
+overflow: auto;
+text-align: center;
+font-family:Comic Sans MS,sans-serif;
+border: 3px solid rgb(173, 248, 24);
+background: url(/images/memphis-mini.png);
+}
+
+
+#words{
+width: 33%;
+height: 300px;
+overflow: auto;
+text-align: center;
+margin: 5px;
+font-family:Comic Sans MS,sans-serif;
+border: 5px dashed rgb(173, 248, 24);
+	background: url(/images/memphis-mini.png);
+}
+
+#pictures{
+width: 33%;
+height: 300px;
+overflow: auto;
+margin: 5px;
+text-align: center;
+font-family:Comic Sans MS,sans-serif;
+border: 5px solid rgb(173, 248, 24);
+background: url(/images/memphis-mini.png);
+
+}
+
+p{
+	font-family:Comic Sans MS,sans-serif;
+}
+
+.img1{
+	border-radius: 10px;
+
+}
+
+#img1{
+	border-radius: 100px;
+}
+
+.list{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#citata{
+	text-align: center;
+	font-size: 1.1em;
+
+}
+#last{
+	text-align: center;
+	font-size: 1.1em;
+}
+
+#text2{
+	text-align: justify;
+	text-indent: 15px;
+}
+
+#slyder{
+	
+	background: url(/images/regal.png);
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#slyder-text{
+	text-align: center;
+	font-weight: bold;
+	font-family: Comic Sans MS,sans-serif; 
+}
+#slydei{
+	
+	width: 600px;
+	height: 400px;
+	margin: 50px auto;
+	position: relative;
+
+}
+#slyde{
+	position: relative;
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+}
+
+#slyde img{
+	width: 800px;
+	height: 500px; 
+	position: absolute;
+	opacity: 1;
+	transition: all ease 1s;
+}
+
+#slyde .oppacity0{
+	opacity: 0;
+}
+
+.up,.down{
+	width: 60px;
+	height: 60px;
+}
+.up,.down{
+	background: url('images/right.png');
+	background-size: contain;
+
+}
+
+.down{
+	background: url('images/left.png');
+	background-size: contain;
+	position: absolute;
+	top:105%;
+	left:38%;
+
+}
+
+.up{
+	position: absolute;
+	top:105%;
+	left:52%;
+}
+
+.up:hover{
+	transform: scale(1.2);
+}
+
+.down:hover{
+	transform: scale(1.2);
+}
+
+
+hr{
+	size: 10px;
+	width: 5px;
+	width: 90%;
+}
+
+/* переключатель */
+/* #checkbox{
+	text-align: left;
+	position: absolute;
+} */
+#switch{
+	
+	font-size: large;
+	font-family: Comic Sans MS,sans-serif; 
+}
+#switch:hover{
+	font-size: 1.2em;
+}
+#dark{
+	margin-left: 1%;
+	width: 30px;
+	height: 30px;
+	/* background-color: black ; */
+}
+
+
+#dark:hover{
+	transform: scale(1.1);
+}
+
+
+/* 3D */
+.sketchfab-embed-wrapper{
+	text-align: center;
+	border: #F0FF76;
+	border-style: solid;
+	border-width: 3px;
+	background: url(/images/webb-dark.png);
+}
+
+#d-model-text{
+	color: white;
+	font-weight: bold;
+	font-family: Comic Sans MS,sans-serif; 
+}}
+
+@media(min-width: 320px){
+	body{
+		background: url(/images/xv.png);
+	}
+	
+	#main-menu{
+		
+		width: 100%;
+		height: 40px;
+		text-decoration: none;
+		background-color: black;
+		
+		font-weight: bolder;
+		text-align: center;
+		font-family: NonSc;
+		font-size: large;
+		margin: 0;
+		padding: 0;
+		box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	}
+	
+	#nav{
+	color: yellow;
+	font-size: 1.5em; 
+	}
+	
+	.main-menu-after{
+		width: 100%;
+		color: white;
+		text-decoration: none;
+		font-size: large;
+	}
+	.main-menu-after:hover{
+	
+		color: white;
+		text-decoration: none;
+		display: block;
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+	
+		border-bottom-color: white;
+		font-family: NonSc;
+		transform: scale(1.2);
+		
+	
+	}
+	
+	@font-face{
+		font-family: NonSc;
+		src: url(/shrifts/ComicNeue-Bold.ttf);
+	}
+	#preview{
+		text-align: center;
+		position: relative;
+	}
+	
+	#table-of-teachers{
+		text-align: center;
+		font-family:Comic Sans MS,sans-serif;
+	}
+	#private-photo{
+	
+		float: right;
+		width: 300px;
+		
+	}
+	#teachers{
+		text-align: center;
+		font-weight: bolder;
+			background-color: #BBFFE1; 
+			border: 3px solid black;
+			box-shadow: 0 0 10px rgba(0,1,0,0.7);
+	}
+	
+	#main-mail{
+		color: black;
+		text-decoration: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	#footer{
+		position: fixed; 
+		left: 0;
+		bottom: 0; 
+	   padding: 5px;
+		color: black; 
+		width: 100%;
+		font-family: NonSc;
+		font-weight: bold;
+		background: url(/images/ricepaper_v3.png);
+	}
+	
+	
+	#about-me-text{
+		text-align: center;
+		font-weight: bold;
+		font-family:Comic Sans MS,sans-serif;
+	
+	}
+	#disreption-main{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+	#media{
+	width: 33%;
+	height: 300px;
+	margin: 5px;
+	overflow: auto;
+	padding: 2px;
+	font-size: 1;
+	text-align: center;
+	font-family:Comic Sans MS,sans-serif;
+	border: 3px solid rgb(173, 248, 24);
+	background: url(/images/memphis-mini.png);
+	}
+	
+	
+	#words{
+	width: 33%;
+	height: 300px;
+	overflow: auto;
+	text-align: center;
+	margin: 5px;
+	padding: 2px;
+	font-size: 1;
+	font-family:Comic Sans MS,sans-serif;
+	border: 5px dashed rgb(173, 248, 24);
+	background: url(/images/memphis-mini.png);
+	}
+	
+	#pictures{
+	width: 33%;
+	height: 300px;
+	overflow: auto;
+	margin: 5px;
+	padding: 2px;
+	text-align: center;
+	font-size: 1;
+	font-family:Comic Sans MS,sans-serif;
+	border: 5px solid rgb(173, 248, 24);
+	background: url(/images/memphis-mini.png);
+	
+	}
+	
+	p{
+		font-family:Comic Sans MS,sans-serif;
+	}
+	
+	.img1{
+		border-radius: 10px;
+	
+	}
+	
+	#img1{
+		border-radius: 100px;
+	}
+	
+	.list{
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	
+	#citata{
+		text-align: center;
+		font-size: 1.1em;
+	
+	}
+	#last{
+		text-align: center;
+		font-size: 1.1em;
+	}
+	
+	#text2{
+		text-align: justify;
+		text-indent: 15px;
+	}
+	
+	#slyder{
+		
+		background: url(/images/regal.png);
+		padding-top: 25px;
+		padding-bottom: 25px;
+		
+	}
+	
+	#slyder-text{
+		text-align: center;
+		font-weight: bold;
+		font-family: Comic Sans MS,sans-serif; 
+	}
+	#slydei{
+		border: 2px solid black;
+		width: 600px;
+		height: 400px;
+		margin: 50px auto;
+		position: relative;
+	
+	}
+	#slyde{
+		position: relative;
+		width: 600px;
+		height: 400px;
+		overflow: hidden;
+	}
+	
+	#slyde img{
+		width: 800px;
+		height: 500px;
+		position: absolute;
+		opacity: 1;
+		transition: all ease 1s;
+	}
+	
+	#slyde .oppacity0{
+		opacity: 0;
+	}
+	
+	.up,.down{
+		width: 60px;
+		height: 60px;
+	}
+	.up,.down{
+		background: url('images/right.png');
+		background-size: contain;
+	
+	}
+	
+	.down{
+		background: url('images/left.png');
+		background-size: contain;
+		position: absolute;
+		top:105%;
+		left:38%;
+	
+	}
+	
+	.up{
+		position: absolute;
+		top:105%;
+		left:52%;
+	}
+	
+	.up:hover{
+		transform: scale(1.2);
+	}
+	
+	.down:hover{
+		transform: scale(1.2);
+	}
+	
+	
+	hr{
+		size: 10px;
+		width: 5px;
+		width: 90%;
+	}
+	
+	/* переключатель */
+	/* #checkbox{
+		text-align: left;
+		position: absolute;
+	} */
+	#switch{
+		
+		font-size: large;
+		font-family: Comic Sans MS,sans-serif; 
+	}
+	#switch:hover{
+		font-size: 1.2em;
+	}
+	#dark{
+		margin-left: 1%;
+		width: 30px;
+		height: 30px;
+		/* background-color: black ; */
+	}
+	
+	
+	#dark:hover{
+		transform: scale(1.1);
+	}
+	
+	
+	/* 3D */
+	.sketchfab-embed-wrapper{
+		text-align: center;
+		border: #F0FF76;
+		border-style: solid;
+		border-width: 3px;
+		background: url(/images/webb-dark.png);
+	}
+	
+	#d-model-text{
+		color: white;
+		font-weight: bold;
+		font-family: Comic Sans MS,sans-serif; 
+	}
+}
+
+@media(min-width:760px){
+	body{
+		background: url(/images/xv.png);
+	}
+	
+	#main-menu{
+		
+		width: 100%;
+		height: 40px;
+		text-decoration: none;
+		background-color: black;
+		
+		font-weight: bolder;
+		text-align: center;
+		font-family: NonSc;
+		font-size: large;
+		margin: 0;
+		padding: 0;
+		box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	}
+	
+	#nav{
+	color: yellow;
+	font-size: 1.5em; 
+	}
+	
+	.main-menu-after{
+		width: 100%;
+		color: white;
+		text-decoration: none;
+		font-size: large;
+	}
+	.main-menu-after:hover{
+	
+		color: white;
+		text-decoration: none;
+		display: block;
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+	
+		border-bottom-color: white;
+		font-family: NonSc;
+		transform: scale(1.2);
+		
+	
+	}
+	
+	@font-face{
+		font-family: NonSc;
+		src: url(/shrifts/ComicNeue-Bold.ttf);
+	}
+	#preview{
+		text-align: center;
+		position: relative;
+	}
+	
+	#table-of-teachers{
+		text-align: center;
+		font-family:Comic Sans MS,sans-serif;
+	}
+	#private-photo{
+	
+		float: right;
+		width: 300px;
+		
+	}
+	#teachers{
+			background-color: #BBFFE1; 
+			border: 3px solid black;
+			box-shadow: 0 0 10px rgba(0,1,0,0.7);
+	}
+	
+	#main-mail{
+		color: black;
+		text-decoration: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	#footer{
+		position: fixed; 
+		left: 0;
+		bottom: 0; 
+	   padding: 5px;
+		color: black; 
+		width: 100%;
+		font-family: NonSc;
+		font-weight: bold;
+		background: url(/images/ricepaper_v3.png);
+	}
+	
+	
+	#about-me-text{
+		text-align: center;
+		font-weight: bold;
+		font-family:Comic Sans MS,sans-serif;
+	
+	}
+	#disreption-main{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+	#media{
+	width: 33%;
+	height: 300px;
+	margin: 5px;
+	overflow: auto;
+	padding: 3px;
+	font-size: 2;
+	text-align: center;
+	font-family:Comic Sans MS,sans-serif;
+	border: 3px solid rgb(173, 248, 24);
+	background: url(/images/memphis-mini.png);
+	}
+	
+	
+	#words{
+	width: 33%;
+	height: 300px;
+	overflow: auto;
+	text-align: center;
+	margin: 5px;
+	padding: 3px;
+	font-size: 2;
+	font-family:Comic Sans MS,sans-serif;
+	border: 5px dashed rgb(173, 248, 24);
+		background: url(/images/memphis-mini.png);
+	}
+	
+	#pictures{
+	width: 33%;
+	height: 300px;
+	overflow: auto;
+	margin: 5px;
+	padding: 3px;
+	font-size: 2;
+	text-align: center;
+	font-family:Comic Sans MS,sans-serif;
+	border: 5px solid rgb(173, 248, 24);
+	background: url(/images/memphis-mini.png);
+	
+	}
+	
+	p{
+		font-family:Comic Sans MS,sans-serif;
+	}
+	
+	.img1{
+		border-radius: 10px;
+	
+	}
+	
+	#img1{
+		border-radius: 100px;
+	}
+	
+	.list{
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	
+	#citata{
+		text-align: center;
+		font-size: 1.1em;
+	
+	}
+	#last{
+		text-align: center;
+		font-size: 1.1em;
+	}
+	
+	#text2{
+		text-align: justify;
+		text-indent: 15px;
+	}
+	
+	#slyder{
+		
+		background: url(/images/regal.png);
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	
+	#slyder-text{
+		text-align: center;
+		font-weight: bold;
+		font-family: Comic Sans MS,sans-serif; 
+	}
+	#slydei{
+		border: 2px solid black;
+		width: 600px;
+		height: 400px;
+		margin: 50px auto;
+		position: relative;
+	
+	}
+	#slyde{
+		position: relative;
+		width: 600px;
+		height: 400px;
+		overflow: hidden;
+	}
+	
+	#slyde img{
+		width: 800px;
+		height: 500px;
+		position: absolute;
+		opacity: 1;
+		transition: all ease 1s;
+	}
+	
+	#slyde .oppacity0{
+		opacity: 0;
+	}
+	
+	.up,.down{
+		width: 60px;
+		height: 60px;
+	}
+	.up,.down{
+		background: url('images/right.png');
+		background-size: contain;
+	
+	}
+	
+	.down{
+		background: url('images/left.png');
+		background-size: contain;
+		position: absolute;
+		top:105%;
+		left:38%;
+	
+	}
+	
+	.up{
+		position: absolute;
+		top:105%;
+		left:52%;
+	}
+	
+	.up:hover{
+		transform: scale(1.2);
+	}
+	
+	.down:hover{
+		transform: scale(1.2);
+	}
+	
+	
+	hr{
+		size: 10px;
+		width: 5px;
+		width: 90%;
+	}
+	
+	/* переключатель */
+	/* #checkbox{
+		text-align: left;
+		position: absolute;
+	} */
+	#switch{
+		
+		font-size: large;
+		font-family: Comic Sans MS,sans-serif; 
+	}
+	#switch:hover{
+		font-size: 1.2em;
+	}
+	#dark{
+		margin-left: 1%;
+		width: 30px;
+		height: 30px;
+		/* background-color: black ; */
+	}
+	
+	
+	#dark:hover{
+		transform: scale(1.1);
+	}
+	
+	
+	/* 3D */
+	.sketchfab-embed-wrapper{
+		text-align: center;
+		border: #F0FF76;
+		border-style: solid;
+		border-width: 3px;
+		background: url(/images/webb-dark.png);
+	}
+	
+	#d-model-text{
+		color: white;
+		font-weight: bold;
+		font-family: Comic Sans MS,sans-serif; 
+	}
+}
